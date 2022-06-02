@@ -5,11 +5,29 @@
 ### **Education**
 > Now i am a first-year student in software engineering. In CFUV named after Vernadsky 
 
-### **Hobby**
+### **Hobbys**
 * programming
 * reading
 * chess
 * dancing
 
+### **Soft skills**
+* Communication.
+* Teamwork.
+* Problem-solving.
+* Time management.
+* Critical thinking.
+* Decision-making.
+* Organizational.
+* Stress management.
 
+### **Hard skills**
+* HTML
+* CSS
+* JavScript
+* Git
+
+### **Social networks**
+* [Vk] (https://vk.com/id559360002)
+* [GitHub] (https://github.com/MariaBashkeva)
 
