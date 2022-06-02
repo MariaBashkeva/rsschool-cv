@@ -28,6 +28,6 @@
 * Git
 
 ### **Social networks**
-* [Vk] (https://vk.com/id559360002)
-* [GitHub] (https://github.com/MariaBashkeva)
+* [Vk](https://vk.com/id559360002)
+* [GitHub](https://github.com/MariaBashkeva)
 
