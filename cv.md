@@ -5,3 +5,11 @@
 ### **Education**
 > Now i am a first-year student in software engineering. In CFUV named after Vernadsky 
 
+### **Hobby**
+* programming
+* reading
+* chess
+* dancing
+
+
+
