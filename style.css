@@ -1,7 +1,13 @@
 body {
-    background-color: antiquewhite;
+    background-color: #D3F1DB;
     font-family: Arial, Helvetica, sans-serif;
+    ;
 }
-h3 {
-    background-color: blanchedalmond;
+.menu {
+    background-color: #A6D5B3;
+}
+.img {
+    height: 360px;
+    weight: 240px;
+    border-radius: 16px;
 }
