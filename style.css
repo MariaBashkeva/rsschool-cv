@@ -20,7 +20,7 @@ header h2 {
 }
 header,article,section  {
     background-color: #baebc6 ;
-    padding: 2px ;
+    padding: 10px ;
     border-radius: 15px;
     margin: 20px;
 }
@@ -46,6 +46,7 @@ nav {
 
 nav li {
     display: inline-block;
+    
 }
 
 nav a {
@@ -56,9 +57,6 @@ nav a {
     text-decoration: none;
 }
 
-a.featured {
-    background-color: orange;
-}
 a:link {
     color: blue;
     text-decoration: none;
@@ -75,15 +73,32 @@ a:active {
     color: red;
 }
 
-.footer {
+footer {
     color: #666;
-    background-color: #ccc;
+    background-color: #b2cebe;
     padding: 15px 0;
+    margin: 20px;
     text-align: center;
     font-size: 14px;
+    border-radius: 15px ;
 }
 
 footer a {
     color: inherit;
     text-decoration: underline;
 }
+
+footer img {
+    height: 30px;
+}
+footer li,main li {
+    margin: 15px;
+    display: inline-block
+}
+/* .right {
+    
+}
+
+.left {
+    
+} */
