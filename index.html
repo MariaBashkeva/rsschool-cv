@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>CV</title>
+</head>
+<body>
+    <header >
+       <h2>Bashkeva Maria CV</h2>
+        <nav class="menu">
+            <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code example</a></li>
+                <li><a href="#projects">Pet-projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#english">English level</a></li>
+                
+            </ul>
+         </nav>  
+    </header>
+    <main>
+    <section>
+        <div class="left">
+            <h1>Bashkeva Maria</h1>
+            <p>Front-end developer </p>
+        </div>
+        <div class="left">
+            <img class="img" src="DSC07321.jpg" alt="Avatar">
+        </div>
+    </section>
+    <article id="about">
+        <div class="left">
+            <h2>About me:</h2>
+        </div>
+        <p><q>My name is Maria and i am 18 years old. I want to be Front-end developer. I really like to learn and put my knowledge into practice . I've been doing programming since I was 16 and I am sure that this is the direction that suits me the most.</q></p>
+    </article>
+    <article id="contacts">
+        <div class="left">
+            <h2>Contacts:</h2>
+        </div>
+        <ul>
+            <li>Location: Russia, Simferopol</li>
+            <li>Phone number: +7(978)745-27-34</li>
+            <li>Email: bashkevam@yandex.ru</li>
+            <li><a href="https://vk.com/id559360002" target="_blank">Vk</a></li>
+        </ul>
+    </article>
+    <article id="skills">
+        <div class="left">
+            <h2>Skills:</h2>
+        </div>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+            <li>Python</li>
+        </ul>
+    </article>
+    <article id="code">
+        <h2>Code example:</h2>
+        <pre>
+            class Clock {
+                   constructor({ template }) {
+                     this.template = template;
+                   }
+                
+                   render() {
+                     let date = new Date();
+                
+                     let hours = date.getHours();
+                     if (hours &lt; 10) hours = '0' + hours;
+                
+                     let mins = date.getMinutes();
+                     if (mins &lt; 10) mins = '0' + mins;
+                
+                     let secs = date.getSeconds();
+                     if (secs &lt; 10) secs = '0' + secs;
+                
+                     let output = this.template
+                       .replace('h', hours)
+                       .replace('m', mins)
+                       .replace('s', secs);
+                
+                     console.log(output);
+                   }
+                
+                   stop() {
+                     clearInterval(this.timer);
+                   }
+                
+                   start() {
+                     this.render();
+                     this.timer = setInterval(() => this.render(), 1000);
+                   }
+                 }
+                class ExtendedClock extends Clock {
+                       constructor ( { template },precision=1000){
+                         super({template}),
+                         this.precision = precision
+                       }
+                    
+                     }
+        </pre>
+    </article>
+    <article id="projects">
+        <h2>Pet-projects</h2>
+        <ul>
+            <li><a href="https://github.com/MariaBashkeva/game" target="_blank">Game</a></li>
+            <li><a href="https://github.com/MariaBashkeva/slider" target="_blank">Slider</a></li>
+            <li><a href="https://github.com/MariaBashkeva/Cards" target="_blank">Cards</a></li>
+            <li><a href="https://github.com/MariaBashkeva/drag-drop1" target="_blank">Drag-drop</a></li>
+        </ul>
+    </article>
+    <article id="education">
+        <h2>Education:</h2>
+        <ul>
+            <li>(2021-2025)CFUV named after Vernadsky,Software engineering</li>
+        </ul>
+    </article>
+    <article id="english">
+        <h2>English level</h2>
+        <ul>
+            <li>A2 (Pre Intermediate)</li>
+        </ul>
+    </article>
+    </main>
+    
+    <footer>
+        <ul>
+            <li><a href="https://github.com/MariaBashkeva" target="_blank">GitHub</a></li>
+            <li>2022</li>
+            <li><a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="RSS logo"></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
